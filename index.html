@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Arithmetic Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <h1>Arithmetic Calculator</h1>
+    <p>This page lets you calculate the results of 2 numbers being operated together. It allows you to find the sum, difference, product, quotient and percent of 2 numbers.</p>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" name="num1" />
+    <br />
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" name="num2" />
+    <br />
+    <button onclick="calculate('+')">Addition (+)</button>
+    <button onclick="calculate('-')">Subtraction (-)</button>
+    <button onclick="calculate('*')">Multiplication (*)</button>
+    <button onclick="calculate('/')">Division (/)</button>
+    <button onclick="calculate('%')">Modulo (%)</button>
+    <br />
+    <p id="result"></p>
+</body>
+</html>
